@@ -1,0 +1,648 @@
+[
+  {
+    "title": "Grey's Anatomy",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjx0tDL1evfAhUn5IMKHeyiAakQjRx6BAgBEAU&url=http%3A%2F%2Fhomeland.wikia.com%2Fwiki%2FFile%3AGreysanatomy_showtile.png.2017-01-25T14-22-10%252B13-00.jpg&psig=AOvVaw0Sh36_fw-94Vhhj_zuuMte&ust=1547500182236312",
+    "networks": "Hulu",
+    "similar":[{
+        "title":"Private Practice",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi78ufw1evfAhVm2oMKHe_gAKcQjRx6BAgBEAU&url=https%3A%2F%2Ftv-trailers.com%2Fprivate-practice&psig=AOvVaw1QC8axNb53zUJncsuZv7n3&ust=1547500257325864",
+        "networks":"Hulu"
+      },
+      {
+        "title":"Chicago Med",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi03sn_1evfAhUI6oMKHZcTCCQQjRx6BAgBEAU&url=http%3A%2F%2Ftvtrippin.com%2Ftv%2Fchicago-med-school-meet-the-cast%2F&psig=AOvVaw0n1nB75ufNkWDrzVcb7Ref&ust=1547500296262196",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title": "The Office",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjCm93A1uvfAhUi_IMKHcjJCxYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.virtualvocations.com%2Fblog%2Fretired%2Ftelecommuter-break-room%2Fupcoming-fall-tv-shows-part-ii%2F&psig=AOvVaw3XHWKSubr0c3rAhMhi09R3&ust=1547500428242581",
+    "networks": "Netflix",
+    "similar":[{
+        "title":"Parks and Recreation",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiBn4fY1uvfAhWMnoMKHaJnB8wQjRx6BAgBEAU&url=https%3A%2F%2Fnetflixupdate.com%2Fparks-and-rec-quotes%2F&psig=AOvVaw24KYCqjjgbIbzLqHHnAO_I&ust=1547500479245108",
+        "networks":["Netflix","Amazon Prime","Hulu"]
+      },
+      {
+        "title":"30 Rock",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiK4qru1uvfAhUMoYMKHa5zAf4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.amazon.com%2F30-Rock-Season-4%2Fdp%2FB002R2OK46&psig=AOvVaw31SrtHXyO369gFtcs6fht2&ust=1547500513441687",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title": "The Big Bang Theory",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj7hL-L1-vfAhVL7oMKHXLdA54QjRx6BAgBEAU&url=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB01J95DI1E&psig=AOvVaw2anoN4KWj9LsK8Lp5YIfv4&ust=1547500557973927",
+    "networks":"Youtube TV",
+    "similar":[{
+        "title":"Friends",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJ0oue1-vfAhUHq4MKHdW6BHMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.channel24.co.za%2FShowMax%2F10-unforgettable-lines-from-friends-20161109&psig=AOvVaw39pIrpUouTiEJdVM1t5eG0&ust=1547500615922217",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Two And A Half Men",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiF1s2p1-vfAhVr1oMKHW47AHkQjRx6BAgBEAU&url=https%3A%2F%2Fnext-episode.net%2Ftwo-and-a-half-men&psig=AOvVaw0vIjjf99gkByOz3vGCk_Uv&ust=1547500654335978",
+        "networks":"N/A"
+      }]
+  },
+  {
+    "title": "Stranger Things",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj_6JO01-vfAhWH8oMKHf1OBqQQjRx6BAgBEAU&url=https%3A%2F%2Fmhsvoice.com%2F1252%2Fshowcase%2Fstranger-things-delivers-with-season-two%2F&psig=AOvVaw02q7WXVtysNucN-rgGS_Xe&ust=1547500675005086",
+    "networks": "Netflix",
+    "similar":[{
+        "title":"Luke Cage",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjtrKG_1-vfAhUGtIMKHaG1AswQjRx6BAgBEAU&url=https%3A%2F%2Fnext-episode.net%2Fmarvels-luke-cage&psig=AOvVaw10o_bYzVgcLlMeNXakckD1&ust=1547500697732340",
+        "networks":"Netflix"
+      },
+      {
+        "title":"A Series of Unfortunate Events",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiahYfR1-vfAhUByoMKHeyKDIUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.allplayer.org%2Fen%2Ftv-series%2F99-a-series-of-unfortunate-events-watch-tv-series-with-matching-subtitles&psig=AOvVaw3PsIm2W18W2I1TIiaurcjG&ust=1547500724125809",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title": "Friends",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJ0oue1-vfAhUHq4MKHdW6BHMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.channel24.co.za%2FShowMax%2F10-unforgettable-lines-from-friends-20161109&psig=AOvVaw39pIrpUouTiEJdVM1t5eG0&ust=1547500615922217",
+    "networks": "Netflix",
+    "similar":[{
+        "title":"Gilmore Girls",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwik1dmK2OvfAhUnzoMKHaC6CZEQjRx6BAgBEAU&url=https%3A%2F%2Fparade.com%2F524661%2Flisarosen%2Fa-gilmore-girls-homecoming-catching-up-with-lauren-graham-alexis-bledel%2F&psig=AOvVaw0K5JmdYNznamjNRsUwXL_v&ust=1547500833537163",
+        "networks":["Netflix","Amazon Prime"]
+      }]
+  },
+  {
+    "title": "The Flash",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjftoWU2OvfAhUTq4MKHWlADDEQjRx6BAgBEAU&url=https%3A%2F%2Fwegotthiscovered.com%2Ftv%2Fflash-upcoming-100th-episode-details%2F&psig=AOvVaw3-LTMkQigW1DUZh5eQPw01&ust=1547500876532006",
+    "networks": "Netflix",
+    "similar":[{
+        "title":"Arrow",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj_zbCp2OvfAhXtooMKHT2-CCIQjRx6BAgBEAU&url=https%3A%2F%2Ftvseriesfinale.com%2Ftv-show%2Farrow-season-five-preview-released-cw%2F&psig=AOvVaw1g-AagFU2CW7Mdr4NIlyyw&ust=1547500921999719",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Gotham",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjqmv692OvfAhXDqYMKHQX3D_EQjRx6BAgBEAU&url=https%3A%2F%2Fwww.slashfilm.com%2Fgotham-season-3-interview%2F&psig=AOvVaw16Bu_pKCQsBwB_PuBJ74gm&ust=1547500964546105",
+        "networks":["Netflix","Hulu"]
+      }]
+  },
+  {
+    "title": "Arrow",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj_zbCp2OvfAhXtooMKHT2-CCIQjRx6BAgBEAU&url=https%3A%2F%2Ftvseriesfinale.com%2Ftv-show%2Farrow-season-five-preview-released-cw%2F&psig=AOvVaw1g-AagFU2CW7Mdr4NIlyyw&ust=1547500921999719",
+    "networks": "Netflix",
+    "similar":[{
+        "title":"Gotham",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjqmv692OvfAhXDqYMKHQX3D_EQjRx6BAgBEAU&url=https%3A%2F%2Fwww.slashfilm.com%2Fgotham-season-3-interview%2F&psig=AOvVaw16Bu_pKCQsBwB_PuBJ74gm&ust=1547500964546105",
+        "networks":["Netflix","Hulu"]
+      },
+      {
+        "title":"The Flash",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjftoWU2OvfAhUTq4MKHWlADDEQjRx6BAgBEAU&url=https%3A%2F%2Fwegotthiscovered.com%2Ftv%2Fflash-upcoming-100th-episode-details%2F&psig=AOvVaw3-LTMkQigW1DUZh5eQPw01&ust=1547500876532006",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title": "Dirty John",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj4hpPo2OvfAhUl1oMKHf3sAokQjRx6BAgBEAU&url=https%3A%2F%2Fwww.tunefind.com%2Fshow%2Fdirty-john%2Fseason-1&psig=AOvVaw1cPqiy6O-Hgc-mBkvFAVKd&ust=1547501055622757",
+    "networks": "Youtube TV",
+    "similar":[{
+        "title":"The Resident",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQprDz2OvfAhVo64MKHUdlD8YQjRx6BAgBEAU&url=https%3A%2F%2Fwww.tvnz.co.nz%2Fshows%2Fthe-resident&psig=AOvVaw0ZimQYvD1E7QwZehPnCfCg&ust=1547501077549828",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"Brooklyn Nine-Nine",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwirq4CA2evfAhUh4oMKHWiJAnIQjRx6BAgBEAU&url=https%3A%2F%2Fyaleherald.com%2Fbrooklyn-nine-nine-a-love-story-34bc80a0e6b&psig=AOvVaw2Ce1-PgGSQav4jHxmAaMD5&ust=1547501102687927",
+    "networks": "Hulu",
+    "similar":[{
+        "title":"The Good Place",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwir3teR2evfAhVK4YMKHTFFA3AQjRx6BAgBEAU&url=https%3A%2F%2Fwww.goldderby.com%2Farticle%2F2018%2Fthe-good-place-ted-danson-maya-rudolph-emmys-season-3-premiere-news%2F&psig=AOvVaw0xnTAjYAALO4O4gzg8Wry8&ust=1547501139264701",
+        "networks":["Netflix","Hulu"]
+      },
+      {
+        "title":"The Mindy Project",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiFvLGm2evfAhUrpoMKHZfjCrQQjRx6BAgBEAU&url=https%3A%2F%2Fblackgirlnerds.com%2Fmindy-project-every-woman%2F&psig=AOvVaw1yoWyfB0N_TDi_pupTLIRg&ust=1547501180636384",
+        "networks":["Hulu","Netflix"]
+      }]
+  },
+  {
+    "title":"The Good Place",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwir3teR2evfAhVK4YMKHTFFA3AQjRx6BAgBEAU&url=https%3A%2F%2Fwww.goldderby.com%2Farticle%2F2018%2Fthe-good-place-ted-danson-maya-rudolph-emmys-season-3-premiere-news%2F&psig=AOvVaw0xnTAjYAALO4O4gzg8Wry8&ust=1547501139264701",
+    "networks":["Hulu","Netflix"],
+    "similar":[{
+        "title":"Brooklyn Nine-Nine",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwirq4CA2evfAhUh4oMKHWiJAnIQjRx6BAgBEAU&url=https%3A%2F%2Fyaleherald.com%2Fbrooklyn-nine-nine-a-love-story-34bc80a0e6b&psig=AOvVaw2Ce1-PgGSQav4jHxmAaMD5&ust=1547501102687927",
+        "networks":"Hulu"
+      },
+      {
+        "title":"The Mindy Project",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiFvLGm2evfAhUrpoMKHZfjCrQQjRx6BAgBEAU&url=https%3A%2F%2Fblackgirlnerds.com%2Fmindy-project-every-woman%2F&psig=AOvVaw1yoWyfB0N_TDi_pupTLIRg&ust=1547501180636384",
+        "networks":["Hulu","Netflix","Amazon Prime"]
+      }]
+  },
+  {
+    "title":"The Walking Dead",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiv7-u52evfAhWK7YMKHbGZAagQjRx6BAgBEAU&url=https%3A%2F%2Fwww.foxtel.com.au%2Fwatch%2Fthe-walking-dead.html&psig=AOvVaw0rIwTBcCcccx6Tmi1u9xgZ&ust=1547501225304816",
+    "networks":["Netflix","Amazon Prime"],
+    "similar":[{
+        "title":"Hell on Wheels",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjOkI_K2evfAhUbo4MKHRb0AIcQjRx6BAgBEAU&url=https%3A%2F%2Fwww.joblo.com%2Fmovie-news%2Fbinge-watchin-tv-review-hell-on-wheels-726&psig=AOvVaw1yxIphl1m2a6n_a4Lryj5Y&ust=1547501256047916",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Criminal Minds",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjMnZTW2evfAhVF5IMKHYcRD9oQjRx6BAgBEAU&url=https%3A%2F%2Fnext-episode.net%2Fcriminal-minds&psig=AOvVaw3NgaIqDsNoGZjv_HMPOfWl&ust=1547501280955989",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"The Blacklist",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjhja3o2evfAhUl4oMKHf_hCXsQjRx6BAgBEAU&url=http%3A%2F%2Fthe-blacklist-season-6-episode-1-nbc-tv-series.over-blog.com%2Fsy54syb6uy&psig=AOvVaw1N-p471zJGqM8U241HJJVi&ust=1547501313855795",
+        "networks":["Netflix","Amazon Prime"]
+      },
+      {
+        "title":"Jack Ryan",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi7yqD82evfAhWG34MKHQ0iD6kQjRx6BAgBEAU&url=https%3A%2F%2Fwww.whats-on-netflix.com%2Fnews%2Fwill-tom-clancys-jack-ryan-season-1-be-on-netflix%2F&psig=AOvVaw1NF2ow18x98ykKuA3j0l_2&ust=1547501356944236",
+        "networks":"Amazon Prime"
+      }]
+  },
+  {
+    "title":"The 100",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiBlf2O2uvfAhUq6oMKHT-0B9cQjRx6BAgBEAU&url=https%3A%2F%2Fwww.whats-on-netflix.com%2Fnews%2Fwhen-will-season-4-of-the-100-be-on-netflix%2F&psig=AOvVaw2Pxg6uwjJZr0TiRMN5Ipg2&ust=1547501394633019",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Colony",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwifvr2Z2uvfAhXJ7YMKHUTdC60QjRx6BAgBEAU&url=https%3A%2F%2Fnext-episode.net%2Fcolony&psig=AOvVaw0FZjneL78GIyymXan6v7UE&ust=1547501421010216",
+        "networks":["Netflix","Amazon Prime"]
+      }]
+  },
+  {
+    "title":"Gotham",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjqmv692OvfAhXDqYMKHQX3D_EQjRx6BAgBEAU&url=https%3A%2F%2Fwww.slashfilm.com%2Fgotham-season-3-interview%2F&psig=AOvVaw16Bu_pKCQsBwB_PuBJ74gm&ust=1547500964546105",
+    "networks":["Netflix","Hulu"],
+    "similar":[{
+        "title":"Arrow",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj_zbCp2OvfAhXtooMKHT2-CCIQjRx6BAgBEAU&url=https%3A%2F%2Ftvseriesfinale.com%2Ftv-show%2Farrow-season-five-preview-released-cw%2F&psig=AOvVaw1g-AagFU2CW7Mdr4NIlyyw&ust=1547500921999719",
+        "networks":"Netflix"
+      },
+      {
+        "title":"The Flash",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjftoWU2OvfAhUTq4MKHWlADDEQjRx6BAgBEAU&url=https%3A%2F%2Fwegotthiscovered.com%2Ftv%2Fflash-upcoming-100th-episode-details%2F&psig=AOvVaw3-LTMkQigW1DUZh5eQPw01&ust=1547500876532006",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"The Blacklist",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjhja3o2evfAhUl4oMKHf_hCXsQjRx6BAgBEAU&url=http%3A%2F%2Fthe-blacklist-season-6-episode-1-nbc-tv-series.over-blog.com%2Fsy54syb6uy&psig=AOvVaw1N-p471zJGqM8U241HJJVi&ust=1547501313855795",
+    "networks":["Netflix","Amazon Prime"],
+    "similar":[{
+        "title":"Criminal Minds",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjMnZTW2evfAhVF5IMKHYcRD9oQjRx6BAgBEAU&url=https%3A%2F%2Fnext-episode.net%2Fcriminal-minds&psig=AOvVaw3NgaIqDsNoGZjv_HMPOfWl&ust=1547501280955989",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Jack Ryan",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi7yqD82evfAhWG34MKHQ0iD6kQjRx6BAgBEAU&url=https%3A%2F%2Fwww.whats-on-netflix.com%2Fnews%2Fwill-tom-clancys-jack-ryan-season-1-be-on-netflix%2F&psig=AOvVaw1NF2ow18x98ykKuA3j0l_2&ust=1547501356944236",
+        "networks":"Amazon Prime"
+      }]
+  },
+  {
+    "title":"Jane the Virgin",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwji36Om2uvfAhWI5oMKHVqPB58QjRx6BAgBEAU&url=https%3A%2F%2Fwww.themarysue.com%2Fjane-the-virgin-venezuela%2F&psig=AOvVaw3gOerUkMN4LH-rGZWkORLO&ust=1547501448009910",
+    "networks":["Netflix","Amazon Prime"],
+    "similar":[{
+        "title":"Black-Ish",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjjwfax2uvfAhUkrYMKHYF6AUwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.theroot.com%2Fwhy-black-ish-is-winning-this-season-1791365224&psig=AOvVaw0c47osoJX-kjX1kcWFz9x6&ust=1547501478203561",
+        "networks":"Amazon Prime"
+      },
+      {
+        "title":"Young & Hungry",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwict7TW2uvfAhXs6YMKHVolD00QjRx6BAgBEAU&url=http%3A%2F%2Fwww.craveyoutv.com%2Fyoung-hungry-young-oh-brother-2x14%2F&psig=AOvVaw2vOw7jshnesSMW9_7UYhIk&ust=1547501517212975",
+        "networks":["Netflix","Hulu","Amazon Prime"]
+      }]
+  },
+  {
+    "title":"Unbreakable Kimmy Shmidt",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiX4evp2uvfAhWiy4MKHekYCQoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.elledecor.com%2Fcelebrity-style%2Fa7232%2Fget-the-look-kimmy-schmidt%2F&psig=AOvVaw2gtTwQLl0P6bnrqpUcWx1o&ust=1547501595448610",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"The Mindy Project",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiFvLGm2evfAhUrpoMKHZfjCrQQjRx6BAgBEAU&url=https%3A%2F%2Fblackgirlnerds.com%2Fmindy-project-every-woman%2F&psig=AOvVaw1yoWyfB0N_TDi_pupTLIRg&ust=1547501180636384",
+        "networks":["Hulu","Amazon Prime"]
+      }]
+  },
+  {
+    "title":"Jack Ryan",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi7yqD82evfAhWG34MKHQ0iD6kQjRx6BAgBEAU&url=https%3A%2F%2Fwww.whats-on-netflix.com%2Fnews%2Fwill-tom-clancys-jack-ryan-season-1-be-on-netflix%2F&psig=AOvVaw1NF2ow18x98ykKuA3j0l_2&ust=1547501356944236",
+    "networks":"Amazon Prime",
+    "similar":[{
+        "title":"The Good Doctor",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi-gZqR4OvfAhWSHTQIHU_TBowQjRx6BAgBEAU&url=http%3A%2F%2Fz1035.com%2Fgood-doctor-officially-renewed-season-2%2F&psig=AOvVaw1gXxSWJOmimjx4QHzdurV1&ust=1547503017620942",
+        "networks":"Hulu"
+      },
+      {
+        "title":"Swat",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwik_fCn4OvfAhWNHDQIHUXGDFoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F304204149825298293%2F&psig=AOvVaw32SjLKUo7WZBOOL5sLVtp8&ust=1547503063615358",
+        "networks":"N/A"
+      }]
+  },
+  {
+    "title":"Homecoming",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjO4_XX4OvfAhVYFzQIHaatBG8QjRx6BAgBEAU&url=https%3A%2F%2Fdecider.com%2F2018%2F09%2F10%2Fhomecoming-seven-things-julia-roberts-amazon-series%2F&psig=AOvVaw1d18ENom4x_cWjAAytFWoU&ust=1547503166159694",
+    "networks":"Amazon Prime",
+    "similar":[{
+        "title":"The Good Place",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwir3teR2evfAhVK4YMKHTFFA3AQjRx6BAgBEAU&url=https%3A%2F%2Fwww.goldderby.com%2Farticle%2F2018%2Fthe-good-place-ted-danson-maya-rudolph-emmys-season-3-premiere-news%2F&psig=AOvVaw0xnTAjYAALO4O4gzg8Wry8&ust=1547501139264701",
+        "networks":["Netflix","Hulu"]
+      }]
+  },
+  {
+    "title":"Downton Abbey",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj1jLr54OvfAhW4HDQIHb98DdwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.smoothradio.com%2Ffeatures%2Fdownton-abbey-movie-cast-release-date-plot-trailer%2F&psig=AOvVaw0CRn2bN6WFKmVqvU6x-mYI&ust=1547503239518854",
+    "networks":"Amazon Prime",
+    "similar":[{
+        "title":"Call the Midwife",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi7tpaL4evfAhUkMn0KHZBkD_0QjRx6BAgBEAU&url=https%3A%2F%2Fwww.yours.co.uk%2Ffeatures%2Fcelebrity%2Farticles%2Fcall-the-midwife-cast&psig=AOvVaw0SLCyoDOo3BUJMlQBVA5kJ&ust=1547503274673052",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Mr Selfridge",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwisj7Wm4evfAhXZJjQIHX4wAycQjRx6BAgBEAU&url=https%3A%2F%2Fwww.standard.co.uk%2Fstayingin%2Fmr-selfridge-5-things-you-need-to-know-a3152031.html&psig=AOvVaw0XNgD1edq7fsj4VmZiv1dU&ust=1547503329143886",
+        "networks":"Amazon Prime"
+      }]
+  },
+  {
+    "title":"Sherlock",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwifvrKx4evfAhWdHjQIHQHlCPsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fp04ln8mn%2Fp04m3jmx&psig=AOvVaw3O47IARP_1h7czUsyUH_pd&ust=1547503357612062",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Doctor Who",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj3roi84evfAhXpFjQIHVVpAogQjRx6BAgBEAU&url=http%3A%2F%2Fwww.doctorwhotv.co.uk%2Fdefining-the-doctor-the-tv-movie-52834.htm&psig=AOvVaw2k1CSWVCVLXiBumm7iPXXG&ust=1547503376349069",
+        "networks":"N/A"
+      },
+      {
+        "title":"Downton Abbey",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj1jLr54OvfAhW4HDQIHb98DdwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.smoothradio.com%2Ffeatures%2Fdownton-abbey-movie-cast-release-date-plot-trailer%2F&psig=AOvVaw0CRn2bN6WFKmVqvU6x-mYI&ust=1547503239518854",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"Parks And Recreation",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiBn4fY1uvfAhWMnoMKHaJnB8wQjRx6BAgBEAU&url=https%3A%2F%2Fnetflixupdate.com%2Fparks-and-rec-quotes%2F&psig=AOvVaw24KYCqjjgbIbzLqHHnAO_I&ust=1547500479245108",
+    "networks":["Netflix","Amazon Prime","Hulu"],
+    "similar":[{
+        "title":"The Office",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjCm93A1uvfAhUi_IMKHcjJCxYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.virtualvocations.com%2Fblog%2Fretired%2Ftelecommuter-break-room%2Fupcoming-fall-tv-shows-part-ii%2F&psig=AOvVaw3XHWKSubr0c3rAhMhi09R3&ust=1547500428242581",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Brooklyn Nine-Nine",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwirq4CA2evfAhUh4oMKHWiJAnIQjRx6BAgBEAU&url=https%3A%2F%2Fyaleherald.com%2Fbrooklyn-nine-nine-a-love-story-34bc80a0e6b&psig=AOvVaw2Ce1-PgGSQav4jHxmAaMD5&ust=1547501102687927",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"Gilmore Girls",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwik1dmK2OvfAhUnzoMKHaC6CZEQjRx6BAgBEAU&url=https%3A%2F%2Fparade.com%2F524661%2Flisarosen%2Fa-gilmore-girls-homecoming-catching-up-with-lauren-graham-alexis-bledel%2F&psig=AOvVaw0K5JmdYNznamjNRsUwXL_v&ust=1547500833537163",
+    "networks":["Netflix","Amazon Prime"],
+    "similar":[{
+        "title":"One Tree Hill",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi_pZGm4uvfAhUUOH0KHTV0DAsQjRx6BAgBEAU&url=http%3A%2F%2Fwww.pretty52.com%2Fentertaining%2Ftv-and-film-the-one-tree-hill-cast-are-reuniting-for-a-one-hour-special-20180927&psig=AOvVaw3eW_FcXXoYYOLBSGENGiZ2&ust=1547503584820292",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"This Is Us",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiItsqv4uvfAhVgHTQIHagfC-IQjRx6BAgBEAU&url=https%3A%2F%2Fwww.nbc.com%2Fthis-is-us%2Fepisodes&psig=AOvVaw1RB0c5Um0pciwAZmnzMoZB&ust=1547503622543947",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"Parenthood",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjw6ZjP4uvfAhXlMn0KHVMbDGgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.huffingtonpost.com%2F2015%2F01%2F28%2Fcry-moments-parenthood_n_6556554.html&psig=AOvVaw0oS7pgxzUePNgmS3Ec0aP1&ust=1547503640950389",
+        "networks":["Netflix","Hulu"]
+      },
+      {
+        "title":"Speechless",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjVhaLb4uvfAhW0FTQIHTnIDUYQjRx6BAgBEAU&url=https%3A%2F%2Ftelevisionpromos.com%2Fshows%2Fspeechless%2F&psig=AOvVaw3Jaa8_ecpZ0Bca5P9gU9Fw&ust=1547503709049246",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"Modern Family",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiE5fTo4uvfAhVDHDQIHZEnAiQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB004DU314A&psig=AOvVaw0fD_Y14DpaDVxg7f9NFeSe&ust=1547503731457778",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"New Girl",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj237_z4uvfAhX-HTQIHUXwBB8QjRx6BAgBEAU&url=https%3A%2F%2Fnext-episode.net%2Fnew-girl&psig=AOvVaw1FpUYTVeKFH2eSb31SnI1m&ust=1547503760283706",
+        "networks":["Netflix","Hulu"]
+      },
+      {
+        "title":"American Housewife",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwidm4KB4-vfAhU4JDQIHeplB8sQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfatEoXcK_wA&psig=AOvVaw2yVerVkkH_DT1K-0rrphn3&ust=1547503793362054",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"The Good Doctor",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi-gZqR4OvfAhWSHTQIHU_TBowQjRx6BAgBEAU&url=http%3A%2F%2Fz1035.com%2Fgood-doctor-officially-renewed-season-2%2F&psig=AOvVaw1gXxSWJOmimjx4QHzdurV1&ust=1547503017620942",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"The Resident",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQprDz2OvfAhVo64MKHUdlD8YQjRx6BAgBEAU&url=https%3A%2F%2Fwww.tvnz.co.nz%2Fshows%2Fthe-resident&psig=AOvVaw0ZimQYvD1E7QwZehPnCfCg&ust=1547501077549828",
+        "networks":"Hulu"
+      },
+      {
+        "title":"Swat",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwik_fCn4OvfAhWNHDQIHUXGDFoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F304204149825298293%2F&psig=AOvVaw32SjLKUo7WZBOOL5sLVtp8&ust=1547503063615358",
+        "networks":"N/A"
+      }]
+  },
+  {
+    "title":"The Bachelor",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiKycqg4-vfAhXEHTQIHWkeDsMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.whats-on-netflix.com%2Fnews%2Fis-the-bachelor-on-netflix%2F&psig=AOvVaw0E8a_VBRgMuEG8vFOBIXvT&ust=1547503856255673",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"The Bachelorette",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiTnLGq4-vfAhVEIDQIHauDDpQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.cnet.com%2Fhow-to%2Fthe-bachelorette-your-guide-to-becca-kufrin-season-glossary%2F&psig=AOvVaw1wCwQbp_8i3L_w3D0p2IjE&ust=1547503875864751",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"The Resident",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQprDz2OvfAhVo64MKHUdlD8YQjRx6BAgBEAU&url=https%3A%2F%2Fwww.tvnz.co.nz%2Fshows%2Fthe-resident&psig=AOvVaw0ZimQYvD1E7QwZehPnCfCg&ust=1547501077549828",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"The Good Doctor",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi-gZqR4OvfAhWSHTQIHU_TBowQjRx6BAgBEAU&url=http%3A%2F%2Fz1035.com%2Fgood-doctor-officially-renewed-season-2%2F&psig=AOvVaw1gXxSWJOmimjx4QHzdurV1&ust=1547503017620942",
+        "networks":"Hulu"
+      },
+      {
+        "title":"Swat",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwik_fCn4OvfAhWNHDQIHUXGDFoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F304204149825298293%2F&psig=AOvVaw32SjLKUo7WZBOOL5sLVtp8&ust=1547503063615358",
+        "networks":"N/A"
+      }]
+  },
+  {
+    "title":"The Rookie",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi7yK204-vfAhXkIjQIHWlJDM0QjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8BPlx6eK1vc&psig=AOvVaw0vX2QOsbHJb6jY9YwGFUZg&ust=1547503901267714",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"Jack Ryan",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi7yqD82evfAhWG34MKHQ0iD6kQjRx6BAgBEAU&url=https%3A%2F%2Fwww.whats-on-netflix.com%2Fnews%2Fwill-tom-clancys-jack-ryan-season-1-be-on-netflix%2F&psig=AOvVaw1NF2ow18x98ykKuA3j0l_2&ust=1547501356944236",
+        "networks":"Amazon Prime"
+      },
+      {
+        "title":"The Resident",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQprDz2OvfAhVo64MKHUdlD8YQjRx6BAgBEAU&url=https%3A%2F%2Fwww.tvnz.co.nz%2Fshows%2Fthe-resident&psig=AOvVaw0ZimQYvD1E7QwZehPnCfCg&ust=1547501077549828",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"Keeping Up with The Kardashians",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi-sZC-4-vfAhWXHDQIHRyJBWoQjRx6BAgBEAU&url=http%3A%2F%2Fwww.eonline.com%2Fwatch%2Fkeeping-up-with-the-kardashians&psig=AOvVaw22Ymqw0SpnJshV_2Ms2CwR&ust=1547503916244573",
+    "networks":"Hulu",
+    "similar":[]
+  },
+  {
+    "title":"The Voice",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiB5N7G4-vfAhWTNn0KHVUXBmkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.goldderby.com%2Farticle%2F2018%2Fthe-voice-season-14-live-shows-start-april-16-finale-on-may-22%2F&psig=AOvVaw2XoRckE-DJDs1H1YCuNoyX&ust=1547503938444729",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"Dancing With the Stars",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiZ-ZDn4-vfAhXcCTQIHXx4AuUQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fabc.go.com%252Fshows%252Fdancing-with-the-stars%252Fnews%252Fupdates%252Fdancing-with-the-stars-is-renewed-for-season-23-03032016%26psig%3DAOvVaw3kue6CGp26MYciRkP47lnu%26ust%3D1547504005451294&psig=AOvVaw3kue6CGp26MYciRkP47lnu&ust=1547504005451294",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"World of Dance",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjT3InS4-vfAhV1KH0KHeZhBdMQjRx6BAgBEAU&url=https%3A%2F%2Ftvseriesfinale.com%2Ftv-show%2Fworld-dance-nbc-cancelled-renewed-season-two%2F&psig=AOvVaw0ygddxyP1Wmo6TIgbiKr03&ust=1547503960285169",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"The Voice",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiB5N7G4-vfAhWTNn0KHVUXBmkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.goldderby.com%2Farticle%2F2018%2Fthe-voice-season-14-live-shows-start-april-16-finale-on-may-22%2F&psig=AOvVaw2XoRckE-DJDs1H1YCuNoyX&ust=1547503938444729",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"New Girl",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj237_z4uvfAhX-HTQIHUXwBB8QjRx6BAgBEAU&url=https%3A%2F%2Fnext-episode.net%2Fnew-girl&psig=AOvVaw1FpUYTVeKFH2eSb31SnI1m&ust=1547503760283706",
+    "networks":["Netflix","Hulu"],
+    "similar":[{
+        "title":"Happy Endings",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiN5sOB5OvfAhVLIjQIHcL0B1AQjRx6BAgBEAU&url=https%3A%2F%2Fhellogiggles.com%2Freviews-coverage%2Ftv-shows%2Fhappy-endings-new-script%2F&psig=AOvVaw3JTRmo3Cnfvtqx-KBMtNEV&ust=1547504061456842",
+        "networks":"Hulu"
+      },
+      {
+        "title":"The Mindy Project",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiFvLGm2evfAhUrpoMKHZfjCrQQjRx6BAgBEAU&url=https%3A%2F%2Fblackgirlnerds.com%2Fmindy-project-every-woman%2F&psig=AOvVaw1yoWyfB0N_TDi_pupTLIRg&ust=1547501180636384",
+        "networks":["Hulu","Netflix"]
+      }]
+  },
+  {
+    "title":"Black Panther",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQg7z9-OvfAhVk1oMKHerEDLwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.marvel.com%2Fblackpanther&psig=AOvVaw2OzR3EDYaN_ffTRpSIzMiK&ust=1547509690277857",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Avengers: Infinity War",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8vPSW-evfAhVm6oMKHRWeCycQjRx6BAgBEAU&url=https%3A%2F%2Fmashable.com%2F2018%2F04%2F26%2Favengers-infinity-war-marvel-guide%2F&psig=AOvVaw2_m4AOclEXRIxF7bFJM0rs&ust=1547509744435396",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Thor: Ragnarok",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjsjdGs-evfAhUI5IMKHasGBScQjRx6BAgBEAU&url=https%3A%2F%2Fwww.themarysue.com%2Fthor-and-more-june-netflix%2F&psig=AOvVaw12AJgg9Xcpr-pe_P_Ocdv8&ust=1547509788854423",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Avengers: Infinity War",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8vPSW-evfAhVm6oMKHRWeCycQjRx6BAgBEAU&url=https%3A%2F%2Fmashable.com%2F2018%2F04%2F26%2Favengers-infinity-war-marvel-guide%2F&psig=AOvVaw2_m4AOclEXRIxF7bFJM0rs&ust=1547509744435396",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Thor: Ragnarok",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjsjdGs-evfAhUI5IMKHasGBScQjRx6BAgBEAU&url=https%3A%2F%2Fwww.themarysue.com%2Fthor-and-more-june-netflix%2F&psig=AOvVaw12AJgg9Xcpr-pe_P_Ocdv8&ust=1547509788854423",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Black Panther",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQg7z9-OvfAhVk1oMKHerEDLwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.marvel.com%2Fblackpanther&psig=AOvVaw2OzR3EDYaN_ffTRpSIzMiK&ust=1547509690277857",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Star Wars: The Last Jedi",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwikj8TG-evfAhXOq4MKHeojC44QjRx6BAgBEAU&url=http%3A%2F%2Fwww.bu.edu%2Ftoday%2F2017%2Fearly-stocking-stuffer-win-free-tickets-to-star-wars-the-last-jedi%2F&psig=AOvVaw1N9AP57vL_RddHzk-dECQE&ust=1547509843688731",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Solo: A Star Wars Story",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwichsDh-evfAhWb0YMKHUF3CwUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.starwars.com%2Fnews%2Fsolo-a-star-wars-story-products-revealed&psig=AOvVaw0VHhLpWAQojJNmcNOP4yHP&ust=1547509897929577",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Star Wars: The Force Awakens",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwigvoXu-evfAhWl64MKHcT4BLsQjRx6BAgBEAU&url=https%3A%2F%2Fnerdist.com%2Fchinese-star-wars-the-force-awakens-poster-creates-controversy%2F&psig=AOvVaw1kURNgSk3Nn7gigtYK5S9p&ust=1547509924894824",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Coco",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8pZyC-uvfAhVmtIMKHexnCvAQjRx6BAgBEAU&url=http%3A%2F%2Fgooswego.org%2Fevent%2Fmovies-park-coco%2F&psig=AOvVaw2OASZ-cnlcETQ4X0O65ttD&ust=1547509943021864",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"The Incredibles 2",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj3_7KP-uvfAhWi3oMKHSciCNMQjRx6BAgBEAU&url=https%3A%2F%2Fgrandonline.org%2Fevent%2Fvacation-matinee-disneys-the-incredibles-2-3d%2F2018-12-27%2F&psig=AOvVaw28-hQfwnBwSVPkuoKmK2Ye&ust=1547509996869591",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Up",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi9_6aa-uvfAhVCzIMKHTtDCicQjRx6BAgBEAU&url=https%3A%2F%2Fcenterforcreativemedia.com%2Findex.php%2Fthe-art-of-montage-up%2F&psig=AOvVaw1F-rU3EfaZdSwgxu_v94yL&ust=1547510017003737",
+        "networks":["Starz","Netflix"]
+      },
+      {
+        "title":"Despicable Me 3",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjS8bSp-uvfAhWJ24MKHVC1CXMQjRx6BAgBEAU&url=http%3A%2F%2Fwww.despicable.me%2F&psig=AOvVaw2b1TzfFG8On2h6n5HO5HzN&ust=1547510049894799",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Thor: Ragnarok",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjsjdGs-evfAhUI5IMKHasGBScQjRx6BAgBEAU&url=https%3A%2F%2Fwww.themarysue.com%2Fthor-and-more-june-netflix%2F&psig=AOvVaw12AJgg9Xcpr-pe_P_Ocdv8&ust=1547509788854423",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Black Panther",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQg7z9-OvfAhVk1oMKHerEDLwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.marvel.com%2Fblackpanther&psig=AOvVaw2OzR3EDYaN_ffTRpSIzMiK&ust=1547509690277857",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Avengers: Infinity Wars",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8vPSW-evfAhVm6oMKHRWeCycQjRx6BAgBEAU&url=https%3A%2F%2Fmashable.com%2F2018%2F04%2F26%2Favengers-infinity-war-marvel-guide%2F&psig=AOvVaw2_m4AOclEXRIxF7bFJM0rs&ust=1547509744435396",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"The Dark Knight",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjnpu66-uvfAhVL4oMKHazOB7gQjRx6BAgBEAU&url=http%3A%2F%2Fwww.criminalelement.com%2Fthe-dark-knight-looking-back-at-christopher-nolans-superhero-crime-epic%2F&psig=AOvVaw05vr8YW0g46W1vWiYnU336&ust=1547510087984569",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Inception",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiL1vfM-uvfAhUk0oMKHcqeC2YQjRx6BAgBEAU&url=https%3A%2F%2Fscreenrant.com%2Finception-2-joseph-gordon-levitt-christopher-nolan%2F&psig=AOvVaw3Apyowi8TDhMyECGbRo5fB&ust=1547510120931580",
+        "networks":"HBO Now"
+      },
+      {
+        "title":"The Prestige",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjG_9Pi-uvfAhWVw4MKHWQVDaEQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DK3A5-kseHi8&psig=AOvVaw0NPwCAC7lNpgBVaLNbybuX&ust=1547510161311472",
+        "networks":"HBO Now"
+      }]
+  },
+  {
+    "title":"When We First Met",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwicta7r-uvfAhUk4oMKHamrAgEQjRx6BAgBEAU&url=https%3A%2F%2Feverythingmoviereviews.com%2F2018%2F02%2F13%2Fwhen-we-first-met-2018-movie-review-a-story-about-a-man-trapped-in-the-friend-zone%2F&psig=AOvVaw3Wk6hRoGxkJEzVipXpU7CQ&ust=1547510186423007",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Dumplin",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjc9uyv--vfAhWj34MKHYveBt8QjRx6BAgBEAU&url=http%3A%2F%2Ffangirlish.com%2Fsee-the-movie-poster-for-dumplin%2F&psig=AOvVaw07HfTuOz6xGDqwJIOQXnGl&ust=1547510284280089",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"The Sixth Sense",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjH7PXZ--vfAhUHq4MKHdW6BHMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXk5SccTB7gU&psig=AOvVaw1IGli_OwumC7EHhQwTYWto&ust=1547510415317820",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Split",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi715vp--vfAhWUw4MKHY3YD2wQjRx6BAgBEAU&url=https%3A%2F%2Farhsharbinger.com%2F11612%2Fae%2Freview-split-scares-even-the-bravest%2F&psig=AOvVaw0NpIouc0R1fEcShfh1F9zh&ust=1547510440021689",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Bird Box",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiRiPyA_OvfAhWq8YMKHQSgCtQQjRx6BAgBEAU&url=https%3A%2F%2Fscreenrant.com%2Fbird-box-movie-reviews%2F&psig=AOvVaw3kx7QBSdvMWKsdO-qC12lz&ust=1547510495328954",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Arrival",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjh1beN_OvfAhXoooMKHa5GDhwQjRx6BAgBEAU&url=https%3A%2F%2Flithub.com%2Fted-chiang-on-arrival-the-boredom-of-moviemaking-and-the-princess-bride%2F&psig=AOvVaw3HGqzrZB8Yo1DXHkYNonJ8&ust=1547510520633327",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"Interstellar",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjqheuY_OvfAhUM6YMKHXFZDpIQjRx6BAgBEAU&url=https%3A%2F%2Fjohnsherrod.net%2Freview-interstellar-4f94b0d5ab7c&psig=AOvVaw2uScY8BR6C_8QVWgAOzM07&ust=1547510550741966",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Martian",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiZjs6m_OvfAhWIj4MKHUvABnMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.hotstar.com%2Fmovies%2Fthe-martian%2F1770002321%2Fwatch&psig=AOvVaw2lcJg3ZU0Ohk1Nd5dWfSx9&ust=1547510582473370",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Fences",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=&url=https%3A%2F%2Fwww.comingsoon.net%2Fmovies%2Fnews%2F780265-fences-movie-poster&psig=AOvVaw1xPbpB29s20hPxFRpqBlO9&ust=1547510636980862",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"Concussion",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi8jYfM_OvfAhUk1oMKHRXHBoMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.thenational.ae%2Fsport%2Fmovie-on-concussions-may-be-nightmare-for-nfl-s-pr-machine-1.135151&psig=AOvVaw0P462Beqtk8m_YhxXdW76G&ust=1547510657312970",
+        "networks":"Hulu"
+      },
+      {
+        "title":"The Help",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj1tfWD_evfAhVB_IMKHQEoAVgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.emaze.com%2F%40ACILOCIZ&psig=AOvVaw26Kdl4tLXenKA_wf5Ey5Al&ust=1547510775239869",
+        "networks":"Hulu"
+      }]
+  },
+  {
+    "title":"Love Actually",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjxoqiR_evfAhVp0YMKHUz_DggQjRx6BAgBEAU&url=https%3A%2F%2Fwww.uphe.com%2Fmovies%2Flove-actually&psig=AOvVaw3eyXdSNDarJgWk78HRAN31&ust=1547510806451736",
+    "networks":["Hulu","Netflix"],
+    "similar":[{
+        "title":"About Time",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjf84yp_evfAhXNq4MKHSd5AokQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7OIFdWk83no&psig=AOvVaw2lyefFShXg8LMylahRqCxi&ust=1547510856115889",
+        "networks":["HBO Now","Netflix"]
+      },
+      {
+        "title":"The Holiday",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi9r_vX_evfAhWF8oMKHWc9Be8QjRx6BAgBEAU&url=https%3A%2F%2Fblog.homeexchange.com%2Fblog%2Flike-a-local%2Fthe-holiday-and-home-exchange-movies-about-home-swapping%2F&psig=AOvVaw0ZTbFD4wQuJAn8HDZ5jEzn&ust=1547510950579958",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Iron Man 2",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=&url=http%3A%2F%2Fwww.warpedfactor.com%2F2015%2F02%2F10-things-you-might-not-know-about-iron_16.html&psig=AOvVaw0j1-LcBymeMGlC9JOIN_O-&ust=1547510974632537",
+    "networks":"Hulu",
+    "similar":[{
+        "title":"Captain America: Civil War",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj8lJXw_evfAhUM3IMKHd0mDVwQjRx6BAgBEAU&url=https%3A%2F%2Fbgr.com%2F2016%2F05%2F16%2Fcaptain-america-civil-war-plot-holes%2F&psig=AOvVaw3SGZ6InNwzjf6UceRZfzz2&ust=1547511000997579",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Thor: Ragnarok",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjsjdGs-evfAhUI5IMKHasGBScQjRx6BAgBEAU&url=https%3A%2F%2Fwww.themarysue.com%2Fthor-and-more-june-netflix%2F&psig=AOvVaw12AJgg9Xcpr-pe_P_Ocdv8&ust=1547509788854423",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"The Boss Baby",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjApZyH_uvfAhWMyoMKHV3iB48QjRx6BAgBEAU&url=https%3A%2F%2Fwww.denofgeek.com%2Fuk%2Fmovies%2Fthe-boss-baby%2F48541%2Fthe-boss-baby-review&psig=AOvVaw3bXvFq5cmZcagKc9KTJCAH&ust=1547511051519405",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Kung Fu Panda",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjntPWd_uvfAhVhxYMKHVA7DDgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.thenewtowntheatre.com%2Fevents%2F2017%2F8%2F16%2Ffree-movie-kung-fu-panda&psig=AOvVaw3vbbFxlgn0O9_euf--6rLE&ust=1547511082009970",
+        "networks":"Netflix"
+      },
+      {
+        "title":"Shrek",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj-hoW__uvfAhWmq4MKHcxrCiYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.facebook.com%2FShrek%2F&psig=AOvVaw0HfFt7PbHVucIhD8m0hWh4&ust=1547511162122604",
+        "networks":"Netflix"
+      }]
+  },
+  {
+    "title":"Shrek",
+    "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj-hoW__uvfAhWmq4MKHcxrCiYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.facebook.com%2FShrek%2F&psig=AOvVaw0HfFt7PbHVucIhD8m0hWh4&ust=1547511162122604",
+    "networks":"Netflix",
+    "similar":[{
+        "title":"Kung Fu Panda",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjntPWd_uvfAhVhxYMKHVA7DDgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.thenewtowntheatre.com%2Fevents%2F2017%2F8%2F16%2Ffree-movie-kung-fu-panda&psig=AOvVaw3vbbFxlgn0O9_euf--6rLE&ust=1547511082009970",
+        "networks":"Netflix"
+      },
+      {
+        "title":"The Boss Baby",
+        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjApZyH_uvfAhWMyoMKHV3iB48QjRx6BAgBEAU&url=https%3A%2F%2Fwww.denofgeek.com%2Fuk%2Fmovies%2Fthe-boss-baby%2F48541%2Fthe-boss-baby-review&psig=AOvVaw3bXvFq5cmZcagKc9KTJCAH&ust=1547511051519405",
+        "networks":"Netflix"
+      }]
+  }
+]
