@@ -3,21 +3,23 @@ import Data from '../data.json';
 import {List, ListItem, ListItemContent, ListItemAction, Checkbox} from 'react-mdl';
 
 class Selection extends Component {
+    
+    createList = () => {
+        let list = []
+        for(var i = 0; i < Data.length; i++){
+            let children = []
+            children.push(<ListItemContent><h4>{Data[i].title}</h4><ListItemAction><Checkbox/></ListItemAction></ListItemContent>)
+            list.push(<tr>{children}</tr>)
+        }
+        return list
+    }
+
     render(){
-        for(var i = 0; i < 10; i++){
             return(
                 <List style={{width: '300px'}}>
-                  <ListItem>
-                    <ListItemContent>
-                        <h4>{Data[i].title}</h4><img style={{width: '140px', height: '80px', padding:'10px'}} src={Data[i].img} alt="Title Banner"></img>
-                    </ListItemContent>
-                    <ListItemAction>
-                      <Checkbox />
-                    </ListItemAction>
-                  </ListItem>
+                    {this.createList()}
                 </List>
             )}
-    }
 }
 
 export default Selection;
