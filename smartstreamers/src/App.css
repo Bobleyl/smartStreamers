@@ -12,7 +12,7 @@
 
 .main-div {
   height: 100%;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .button-start:hover {
@@ -23,8 +23,6 @@
 
 .button-start {
   text-align:center;
-  display: block; 
-  margin: 0 auto;
   font-size: 24px;
   border-radius: 8px;
   font-family: helvetica;
@@ -33,5 +31,7 @@
 }
 
 .height-padding {
-  padding-top: 200px;
+  height:33%;
+  width: 33%;
+  left: 15%;
 }

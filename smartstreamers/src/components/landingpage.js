@@ -8,7 +8,9 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <div className="main-div">
-                            <div className="height-padding"><button className="button-start">Get Started!</button></div>
+                            <div className="height-padding">
+                                <button className="button-start">Get Started!</button>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>
