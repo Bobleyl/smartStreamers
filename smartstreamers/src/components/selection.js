@@ -16,7 +16,7 @@ class Selection extends Component {
 
     render(){
             return(
-                <List style={{width: '400px', padding:'30px'}}>
+                <List className="landing" style={{padding:'50px'}}>
                     {this.createList()}
                 </List>
             )}
