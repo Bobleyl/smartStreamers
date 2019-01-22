@@ -66,3 +66,43 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+createTable = () => {
+    let table = []
+      for (let i =0; i < Data.length; i++) {
+        console.log(Data[i])
+        table.push(
+          <Grid.Row>
+            <Grid.Column>
+              <img style={{width: '180px', height: '95px'}} src={Data[i].img} alt="Title Banner" key={Data[i].title}></img>
+            </Grid.Column>
+            <Grid.Column>
+              <img style={{width: '180px', height: '95px'}} src={Data[i].img} alt="Title Banner" key={Data[i].title}></img>
+            </Grid.Column>
+            <Grid.Column>
+              <img style={{width: '180px', height: '95px'}} src={Data[i].img} alt="Title Banner" key={Data[i].title}></img>
+            </Grid.Column>
+          </Grid.Row>
+        )
+      }
+      return table
+    }
+
+    render(){
+            return(
+                <Grid columns={3} divided>
+                  <Grid.Header>
+                    <Grid.Column>
+                        <h4>Test</h4>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <h4>Test</h4>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <h4>Test</h4>
+                    </Grid.Column>
+                  </Grid.Header>
+                  {this.createTable()}
+                </Grid>
+                
+            )}

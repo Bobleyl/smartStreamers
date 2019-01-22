@@ -3,10 +3,12 @@ import './App.css';
 import { Layout,Header,Navigation,Drawer,Content } from 'react-mdl';
 import Main from './components/main.js';
 import {Link} from 'react-router-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class App extends Component {
   render() {
     return (
+    <MuiThemeProvider>
       <div className="demo-big-content">
         <Layout>
             <Header className="header-color" title="SmartStreamers" scroll>
@@ -29,7 +31,7 @@ class App extends Component {
             </Content>
         </Layout>
        </div>
-
+    </MuiThemeProvider>
     );
   }
 }
