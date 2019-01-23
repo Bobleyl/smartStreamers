@@ -20,6 +20,10 @@ const styles = {
 
 const tilesData = Data
 
+function addToFavourites(title){
+  console.log("Added: " + title + "to favourites")
+}
+
 const Selection = () => (
   <div style={styles.root}>
     <GridList
@@ -33,7 +37,9 @@ const Selection = () => (
           key={tile.img}
           title={tile.title}
           subtitle={<span>by <b>{tile.networks}</b></span>}
-          actionIcon={<IconButton><StarBorder color="white" /></IconButton>}
+          actionIcon={<IconButton><StarBorder color="white" onClick={() =>
+        addToFavourites(tile.title)
+      }/></IconButton>}
         >
           <img src={tile.img} alt="Img not found" />
         </GridTile>
