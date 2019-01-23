@@ -9,7 +9,7 @@ class Landing extends Component {
                     <Cell col={12}>
                         <div className="main-div">
                             <div className="height-padding">
-                                <button className="button-start">Get Started!</button>
+                                <a href ="/selection"><button className="button-start">Get Started!</button></a>
                             </div>
                         </div>
                     </Cell>
