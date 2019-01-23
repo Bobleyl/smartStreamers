@@ -4,24 +4,32 @@ import {GridList, GridTile} from 'material-ui/GridList';
 import IconButton from 'material-ui/IconButton';
 import Subheader from 'material-ui/Subheader';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
+var shuffle = require('shuffle-array')
 
 const styles = {
   root: {
+    padding: 50,
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
   },
   gridList: {
     width: 1000,
-    height: 2500,
+    height: 3000,
     overflowY: 'auto',
   },
 };
 
-const tilesData = Data
+function mixit(){
+  var dataList = Data
+  shuffle(dataList)
+  return dataList
+}
 
-function addToFavourites(title){
-  console.log("Added: " + title + "to favourites")
+const tilesData = mixit()
+
+function addToFavorites(title){
+  console.log("Added: " + title + " to favorites")
 }
 
 const Selection = () => (
@@ -38,7 +46,7 @@ const Selection = () => (
           title={tile.title}
           subtitle={<span>by <b>{tile.networks}</b></span>}
           actionIcon={<IconButton><StarBorder color="white" onClick={() =>
-        addToFavourites(tile.title)
+        addToFavorites(tile.title)
       }/></IconButton>}
         >
           <img src={tile.img} alt="Img not found" />
