@@ -47,7 +47,7 @@
 .height-padding {
   height:70%;
   border-radius: 8px;
-  width: 45%;
+  width: 46%;
   position: relative;
   left: 10%;
   top: 10%;
@@ -57,4 +57,32 @@
   width: 100%;
   background-color: #000000;
   background-image: linear-gradient(to right top, #041227, #4d2b56, #a63c60, #e56c44, #ebba12);
+}
+
+#about-header {
+  text-align: center;
+  font-family: Arial;
+}
+
+#img1 {
+  padding: 40px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#img2 {
+  padding: 40px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#textAbout {
+  text-align: center;
+  padding: 10px;
 }

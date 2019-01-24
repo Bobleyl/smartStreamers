@@ -13,14 +13,16 @@ class App extends Component {
         <Layout>
             <Header className="header-color" title="SmartStreamers" scroll>
                 <Navigation>
-                    <Link to="/">Start</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/selection">Start</Link>
                     <Link to="/database">Database</Link>
                     <Link to="/about">About</Link>
                 </Navigation>
             </Header>
             <Drawer title="SmartStreamers">
                 <Navigation>
-                    <Link to="/">Start</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/selection">Start</Link>
                     <Link to="/database">Database</Link>
                     <Link to="/about">About</Link>
                 </Navigation>
