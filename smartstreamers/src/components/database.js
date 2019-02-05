@@ -5,12 +5,12 @@ class Database extends Component {
     render(){
         return(
                 <div><DataTable
+                    id="dataTable"
                     shadow={0}
                     rows={Data}
                 >
                     <TableHeader name="title">Title</TableHeader>
                     <TableHeader numeric name="networks">Network</TableHeader>
-                    <TableHeader numeric name="img">Image</TableHeader>
                 </DataTable></div>
                             )}
                 }

@@ -6,6 +6,14 @@ import Subheader from 'material-ui/Subheader';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 var shuffle = require('shuffle-array')
 
+const buttonBar = {
+  buttons: {
+    width: 200,
+    height: 40,
+    padding: 75,
+  },
+};
+
 const styles = {
   root: {
     padding: 50,
@@ -53,7 +61,9 @@ const Selection = () => (
         </GridTile>
       ))}
     </GridList>
+    <button style={buttonBar.buttons}>Testing</button>
   </div>
+  
 );
 
 export default Selection;
