@@ -1,5 +1,6 @@
 import React from 'react';
 import Data from '../data.json';
+import FavoriteData from '../favorites.json';
 import {GridList, GridTile} from 'material-ui/GridList';
 import IconButton from 'material-ui/IconButton';
 import Subheader from 'material-ui/Subheader';
@@ -38,6 +39,7 @@ const tilesData = mixit()
 
 function addToFavorites(title){
   console.log("Added: " + title + " to favorites")
+  console.log(FavoriteData);
 }
 
 const Selection = () => (
@@ -61,7 +63,7 @@ const Selection = () => (
         </GridTile>
       ))}
     </GridList>
-    <button style={buttonBar.buttons}>Testing</button>
+    <a href ="/budget"><button style={buttonBar.buttons}>Testing</button></a>
   </div>
   
 );
