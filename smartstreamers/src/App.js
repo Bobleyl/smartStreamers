@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout,Header,Navigation,Drawer,Content } from 'react-mdl';
+import { Layout,Header,Navigation,Content } from 'react-mdl';
 import Main from './components/main.js';
 import {Link} from 'react-router-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -19,14 +19,6 @@ class App extends Component {
                     <Link to="/about">About</Link>
                 </Navigation>
             </Header>
-            <Drawer title="SmartStreamers">
-                <Navigation>
-                    <Link to="/">Home</Link>
-                    <Link to="/selection">Start</Link>
-                    <Link to="/database">Database</Link>
-                    <Link to="/about">About</Link>
-                </Navigation>
-            </Drawer>
             <Content>
                 <div className="page-content" />
                 <Main/>

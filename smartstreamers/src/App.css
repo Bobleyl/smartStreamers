@@ -5,6 +5,17 @@
   
 }
 
+#text_div{
+  padding: 20px;
+  color: white;
+  font-family:arial;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 25%;
+  background-color: rgba(1,1,1,.3);
+  border-radius: 8px;
+}
+
 .landing-grid{
   background: url("./bg.jpg");
   background-size: 100%;
@@ -45,7 +56,7 @@
 }
 
 .height-padding {
-  height:70%;
+  height:40%;
   border-radius: 8px;
   width: 46%;
   position: relative;

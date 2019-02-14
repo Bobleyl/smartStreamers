@@ -6,6 +6,10 @@ class Landing extends Component {
         return(
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
+                    <div id="text_div">
+                        <h3>Not sure which service to purchase?</h3>
+                        <h4>Stop guessing, find out below!</h4>
+                    </div>
                     <Cell col={12}>
                         <div className="main-div">
                             <div className="height-padding">
