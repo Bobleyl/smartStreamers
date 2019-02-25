@@ -104,3 +104,9 @@
   margin-right: auto;
   width: 50%;
 }
+
+#budgetSubmit{
+  padding: 30px;
+  font-family: arial;
+  font-size: 20px;
+}
