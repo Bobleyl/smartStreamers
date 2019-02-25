@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-var temp = [];
 var networkRank = [];
 var chosenNetworks = [];
 
@@ -24,28 +23,12 @@ class Budget extends Component {
   
   handleSubmit(event) {
     console.log(this.state);
-    this.addNetworks(this.state.data);
-    //this.state.value is the value of the number they insert
+    this.sortNetwork(this.state.data);
+    this.pricing(this.state.value);
     event.preventDefault();
-  }
-
-  addNetworks(sources){ //Add Networks to Array based on selected show title: item = title
-    for(var i = 0; i < sources.length; i++){
-        if(sources[i].length > 1){
-          var sourcef = sources[i]
-          for(var f = 0; f < sourcef.length; f++){
-            temp.push(sourcef[f]);
-          }
-      }
-      temp.push(sources[i])
-    }
-    console.log("Chosen Networks: " + temp);
   }
   
   sortNetwork(network){
-    netflix = 0;
-    hulu = 0;
-    prime = 0;
     for(var i = 0; i < network.length; i++){
         if(network[i] === "Netflix"){
             netflix++;
@@ -88,10 +71,10 @@ class Budget extends Component {
             networkRank[2] = "Netflix";
         }
     }
-    //console.log("Netflix: " + netflix);
-    //console.log("Hulu: " + hulu);
-    //console.log("Amazon Prime: " + prime);
-    //console.log(network);
+    console.log("Netflix: " + netflix);
+    console.log("Hulu: " + hulu);
+    console.log("Amazon Prime: " + prime);
+    console.log(network);
   }
   
   pricing(price){
@@ -99,7 +82,7 @@ class Budget extends Component {
   		chosenNetworks = ["Netflix","Hulu","Amazon Prime"];
   	}else if(price < 8){ //too low for any network
   		chosenNetworks = [];
-  	}else if(8 < price < 9){ //Select either hulu or Amazon, whichever is higher
+  	}else if(7 < price < 9){ //Select either hulu or Amazon, whichever is higher
           if(networkRank[0] === hulu){
               chosenNetworks = ["Hulu"];
           }else if(networkRank[0] === prime){

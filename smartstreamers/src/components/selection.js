@@ -8,6 +8,7 @@ import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 var shuffle = require('shuffle-array')
 
 var dataStorage = [];
+var temp = [];
 
   const buttonBar = {
     buttons: {
@@ -60,6 +61,14 @@ class Selection extends Component {
       console.log("Titles::  " + dataStorage);
     }
     
+    addNetworks(){ //Add Networks to Array based on selected show title: item = title
+      for(var i = 0; i < dataStorage.length; i++){
+        //sort out array within arrays
+        temp.push(dataStorage[i]);
+      }
+      console.log("Chosen Networks:!!! " + temp);
+    }
+    
    render(){
         return(
               <div style={styles.root}>
@@ -82,7 +91,7 @@ class Selection extends Component {
                     </GridTile>
                   ))}
                 </GridList>
-                <Link to={{pathname: '/budget', query:{data: dataStorage}}}><button style={buttonBar.buttons}>Testing</button></Link>
+                <Link to={{pathname: '/budget', query:{data: dataStorage}}} onClick={() => this.addNetworks()}><button style={buttonBar.buttons}>Testing</button></Link>
               </div>
           )}
 }
