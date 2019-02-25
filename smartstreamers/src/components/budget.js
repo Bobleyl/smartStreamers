@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 var networkRank = [];
 var chosenNetworks = [];
@@ -11,7 +12,8 @@ class Budget extends Component {
     constructor(props) {
     super(props);
     this.state = {value: '',
-      data:props.location.query
+      data:props.location.query,
+      result:''
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -146,7 +148,7 @@ class Budget extends Component {
           Budget: $   
           <input type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
-        <input type="submit" value="Next" />
+        <Link to={{pathname: '/results', query:{data: this.state.result}}}><input type="submit" value="Next" /></Link>
       </form>
     );
   }

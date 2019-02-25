@@ -7,8 +7,7 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <div id="text_div">
-                        <h3>Not sure which service to purchase?</h3>
-                        <h4>Stop guessing, find out below!</h4>
+                        <h3>Find your ideal streaming service!</h3>
                     </div>
                     <Cell col={12}>
                         <div className="main-div">
