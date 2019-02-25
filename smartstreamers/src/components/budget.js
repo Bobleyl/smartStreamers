@@ -143,13 +143,13 @@ class Budget extends Component {
 
   render() {
     return (
-      <form id="budgetSubmit" onSubmit={this.handleSubmit}>
+      <div id="budgetForm"><form id="budgetSubmit" onSubmit={this.handleSubmit}>
         <label>
           Budget: $   
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          <input id="submissionfield" type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
         <Link to={{pathname: '/results', query:{data: this.state.result}}}><input type="submit" value="Next" /></Link>
-      </form>
+      </form></div>
     );
   }
 }
