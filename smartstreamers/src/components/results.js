@@ -20,28 +20,25 @@ class Results extends Component {
     constructor(props) {
     super(props);
         this.state = {
-            value: '',
+            chosen: props.location.query.data,
             img: ''
-    };
-  }
+      };
+    }
+    
+    componentDidMount(){
+      console.log("THIS IS YOUR DATA:::  "+ this.state.chosen)
+    }
     
     render(){
         return(
-                <h1>Results Page</h1>
-            )}
-}
-
-export default Results;
-
-/*
-    <div style={styles.root}>
+              /*<div style={styles.root}>
                 <GridList
                   cols={3}
                   cellHeight={240}
                   style={styles.gridList}
                 >
                   <Subheader>You should purchase:</Subheader>
-                  {this.state.value.map((tile) => ( // says this is undefined
+                  {this.state.chosen.map((tile) => ( // says this is undefined
                     <GridTile
                       key={tile.img}
                       title={tile}
@@ -50,5 +47,11 @@ export default Results;
                     </GridTile>
                   ))}
                 </GridList>
-              </div>
-*/
+              </div>*/<h1>Testing</h1>
+            )}
+}
+
+export default Results;
+
+
+    

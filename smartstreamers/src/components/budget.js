@@ -98,7 +98,7 @@ class Budget extends Component {
           Budget: $   
           <input id="submissionfield" type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
-        <Link to={{pathname: '/results', query:{data: this.state.result}}}><input type="submit" value="Next" onClick={this.handleSubmit()}/></Link>
+        <Link to={{pathname: '/results', query:{data: chosenNetworks}}}><input type="submit" value="Next" onClick={this.handleSubmit()}/></Link>
       </form></div>
     );
   }
