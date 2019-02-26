@@ -46,7 +46,8 @@ class Selection extends Component {
             titles:'',
             netflix: 0,
             hulu: 0,
-            amazon: 0
+            amazon: 0,
+            passVal:''
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -59,7 +60,6 @@ class Selection extends Component {
     }
     
    handleSubmit(networks) {
-     console.log("!!!!!!!" + networks)
       if(Array.isArray(networks) === true){
         for(var i = 0; i < networks.length; i++){
           if(networks[i] === "Netflix"){
@@ -83,9 +83,6 @@ class Selection extends Component {
             console.log("Bad Network")
         }
       }
-    }
-    
-    addNetworks(){ //Add Networks to Array based on selected show title: item = title
       newData = [
         {title:'Netflix', total:this.state.netflix},{ title:'Hulu', total:this.state.hulu},{title:'Amazon Prime', total:this.state.amazon}
         ]
@@ -96,6 +93,9 @@ class Selection extends Component {
           return 0;
       })
       networkRank = [newData[0].title, newData[1].title, newData[2].title]
+    }
+    
+    addNetworks(){ //Add Networks to Array based on selected show title: item = title
       console.log("NETWORKRANK::::" + networkRank)
       console.log("Netflix: " + this.state.netflix)
       console.log("Hulu: " + this.state.hulu)

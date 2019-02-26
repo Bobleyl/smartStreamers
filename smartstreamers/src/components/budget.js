@@ -11,8 +11,8 @@ var prime = 0;
 class Budget extends Component {
     constructor(props) {
     super(props);
-    this.state = {value: '',
-      data:props.location.query,
+    this.state = {value: 0,
+      data:props.location.query.data,
       result:''
     };
     this.handleChange = this.handleChange.bind(this);
@@ -23,29 +23,29 @@ class Budget extends Component {
     this.setState({value: event.target.value});
   }
   
-  handleSubmit(event) {
+  handleSubmit() {
     console.log(this.state);
     this.pricing(this.state.value);
-    //event.preventDefault();
   }
   
   pricing(price){
+    var data2 = this.state.data;
   	if(price > 26){ //enough money for all networks
   		chosenNetworks = ["Netflix","Hulu","Amazon Prime"];
   	}else if(price < 8){ //too low for any network
   		chosenNetworks = [];
   	}else if(7 < price < 9){ //Select either hulu or Amazon, whichever is higher
-          if(networkRank[0] === hulu){
+          if(data2[0] === hulu){
               chosenNetworks = ["Hulu"];
-          }else if(networkRank[0] === prime){
+          }else if(data2[0] === prime){
               chosenNetworks = ["Amazon Prime"];
-          }else if(networkRank[0] === netflix && networkRank[1] === hulu){
+          }else if(data2[0] === netflix && data2[1] === hulu){
               chosenNetworks = ["Hulu"];
           }else{
               chosenNetworks = ["Amazon Prime"];
           }
   	}else if(8 < price < 16){ //Pick which service is the highest
-  		chosenNetworks = [networkRank[0]];
+  		chosenNetworks = [data2[0]];
   	}else if(15 < price < 17){ //Combine Hulu and Prime:
   		if(hulu + prime  > netflix){ //Get Both Hulu and Prime
   			chosenNetworks = ["Hulu","Amazon Prime"];
@@ -71,7 +71,7 @@ class Budget extends Component {
   	}else if(price > 17){ //return highest to lowest until no more money.
           var total = 0;
           for(var i = 0; i < 3; i++){
-              chosenNetworks = networkRank[i];
+              chosenNetworks = data2[i];
               if(price > total){
                   break;
               }
@@ -98,7 +98,7 @@ class Budget extends Component {
           Budget: $   
           <input id="submissionfield" type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
-        <Link to={{pathname: '/results', query:{data: this.state.result}}}><input type="submit" value="Next" onClick={this.handleSubmit(this.state.value)}/></Link>
+        <Link to={{pathname: '/results', query:{data: this.state.result}}}><input type="submit" value="Next" onClick={this.handleSubmit()}/></Link>
       </form></div>
     );
   }
