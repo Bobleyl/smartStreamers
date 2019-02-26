@@ -6,9 +6,8 @@ import IconButton from 'material-ui/IconButton';
 import Subheader from 'material-ui/Subheader';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 var shuffle = require('shuffle-array')
-
-var dataStorage = [];
-var temp = [];
+var newData = [];
+var networkRank = [];
 
   const buttonBar = {
     buttons: {
@@ -44,7 +43,10 @@ class Selection extends Component {
     constructor(props){
         super(props);
         this.state = {
-            titles:''
+            titles:'',
+            netflix: 0,
+            hulu: 0,
+            amazon: 0
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -56,17 +58,48 @@ class Selection extends Component {
       });
     }
     
-   handleSubmit(e) {
-      dataStorage.push(e);
-      console.log("Titles::  " + dataStorage);
+   handleSubmit(networks) {
+     console.log("!!!!!!!" + networks)
+      if(Array.isArray(networks) === true){
+        for(var i = 0; i < networks.length; i++){
+          if(networks[i] === "Netflix"){
+            this.setState({ netflix:this.state.netflix + 1  })
+          } else if(networks[i] === "Hulu"){
+            this.setState({ hulu:this.state.hulu + 1  })
+          } else if(networks[i] === "Amazon Prime"){
+            this.setState({ amazon:this.state.amazon + 1  })
+          } else{
+            console.log("Bad Network")
+          }
+        }
+      }else{
+        if(networks === "Netflix"){
+           this.setState({ netflix:this.state.netflix + 1  })
+        }else if(networks === "Hulu"){
+            this.setState({ hulu:this.state.hulu + 1  })
+        } else if(networks === "Amazon Prime"){
+            this.setState({ amazon:this.state.amazon + 1  })        
+        } else{
+            console.log("Bad Network")
+        }
+      }
     }
     
     addNetworks(){ //Add Networks to Array based on selected show title: item = title
-      for(var i = 0; i < dataStorage.length; i++){
-        //sort out array within arrays
-        temp.push(dataStorage[i]);
-      }
-      console.log("Chosen Networks:!!! " + temp);
+      newData = [
+        {title:'Netflix', total:this.state.netflix},{ title:'Hulu', total:this.state.hulu},{title:'Amazon Prime', total:this.state.amazon}
+        ]
+      
+      newData.sort(function(a, b){
+          if(a.total < b.total) { return 1; }
+          if(a.total > b.total) { return -1; }
+          return 0;
+      })
+      networkRank = [newData[0].title, newData[1].title, newData[2].title]
+      console.log("NETWORKRANK::::" + networkRank)
+      console.log("Netflix: " + this.state.netflix)
+      console.log("Hulu: " + this.state.hulu)
+      console.log("Amazon: " + this.state.amazon)
     }
     
    render(){
@@ -91,7 +124,7 @@ class Selection extends Component {
                     </GridTile>
                   ))}
                 </GridList>
-                <Link to={{pathname: '/budget', query:{data: dataStorage}}} onClick={() => this.addNetworks()}><button style={buttonBar.buttons}>Testing</button></Link>
+                <Link to={{pathname: '/budget', query:{data: networkRank}}} onClick={() => this.addNetworks()}><button style={buttonBar.buttons}>Testing</button></Link>
               </div>
           )}
 }

@@ -25,58 +25,8 @@ class Budget extends Component {
   
   handleSubmit(event) {
     console.log(this.state);
-    this.sortNetwork(this.state.data);
     this.pricing(this.state.value);
-    event.preventDefault();
-  }
-  
-  sortNetwork(network){
-    for(var i = 0; i < network.length; i++){
-        if(network[i] === "Netflix"){
-            netflix++;
-        }else if(network[i] === "Hulu"){
-            hulu++;
-        }else if(network[i] === "Amazon Prime"){
-            prime++;
-        }else{
-            network.splice(i, 1);
-        }
-    }
-    if(netflix > hulu){
-        if(netflix > prime){
-            networkRank[0] = "Netflix";
-            if(prime > hulu){
-                networkRank[1] = "Amazon Prime";
-                networkRank[2] = "Hulu";
-            }else{
-                networkRank[1] = "Hulu";
-                networkRank[2] = "Amazon Prime";
-            }
-        }else{
-            networkRank[0] = "Amazon Prime";
-            networkRank[1] = "Netflix";
-            networkRank[2] = "Hulu";
-        }
-    }else{
-        if(hulu > prime){
-            networkRank[0] = "Hulu";
-            if(netflix > prime){
-                networkRank[1] = "Netflix";
-                networkRank[2] = "Amazon Prime";
-            }else{
-                networkRank[1] = "Amazon Prime";
-                networkRank[2] = "Netflix";
-            }
-        }else{
-            networkRank[0] = "Amazon Prime";
-            networkRank[1] = "Hulu";
-            networkRank[2] = "Netflix";
-        }
-    }
-    console.log("Netflix: " + netflix);
-    console.log("Hulu: " + hulu);
-    console.log("Amazon Prime: " + prime);
-    console.log(network);
+    //event.preventDefault();
   }
   
   pricing(price){
@@ -148,7 +98,7 @@ class Budget extends Component {
           Budget: $   
           <input id="submissionfield" type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
-        <Link to={{pathname: '/results', query:{data: this.state.result}}}><input type="submit" value="Next" /></Link>
+        <Link to={{pathname: '/results', query:{data: this.state.result}}}><input type="submit" value="Next" onClick={this.handleSubmit(this.state.value)}/></Link>
       </form></div>
     );
   }
