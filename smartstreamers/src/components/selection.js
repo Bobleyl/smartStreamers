@@ -2,20 +2,14 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Data from '../data.json';
 import {GridList, GridTile} from 'material-ui/GridList';
+import Button from '@material-ui/core/Button';
 import IconButton from 'material-ui/IconButton';
 import Subheader from 'material-ui/Subheader';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 var shuffle = require('shuffle-array')
 var newData = [];
 var networkRank = [];
-
-  const buttonBar = {
-    buttons: {
-      width: 200,
-      height: 40,
-      padding: 75,
-    },
-  };
+var tag = false;
   
   const styles = {
     root: {
@@ -28,7 +22,7 @@ var networkRank = [];
       width: 1000,
       height: 3000,
       overflowY: 'auto',
-    },
+    }
   };
   
   function mixit(){
@@ -60,6 +54,7 @@ class Selection extends Component {
     }
     
    handleSubmit(networks) {
+     tag = true
       if(Array.isArray(networks) === true){
         for(var i = 0; i < networks.length; i++){
           if(networks[i] === "Netflix"){
@@ -102,8 +97,17 @@ class Selection extends Component {
       console.log("Amazon: " + this.state.amazon)
     }
     
+    changeColor(){
+      if(tag === true){
+        return "gold"
+      }else{
+        return "white"
+      }
+    }
+    
    render(){
         return(
+            <div id="needpad">
               <div style={styles.root}>
                 <GridList
                   cols={3}
@@ -118,14 +122,17 @@ class Selection extends Component {
                       key={tile.img}
                       title={tile.title}
                       subtitle={<span>by <b>{tile.networks}</b></span>}
-                      actionIcon={<IconButton><StarBorder color="white" onClick={() => this.handleSubmit(tile.networks)}/></IconButton>}
+                      actionIcon={<IconButton><StarBorder color={this.changeColor()} onClick={() => this.handleSubmit(tile.networks)}/></IconButton>}
                     >
-                      <img src={tile.img} alt="Img not found" />
+                      <img src={tile.img} id="tile-img" alt="Img not found" />
                     </GridTile>
                   ))}
                 </GridList>
-                <Link to={{pathname: '/budget', query:{data: networkRank}}} onClick={() => this.addNetworks()}><button style={buttonBar.buttons}>Testing</button></Link>
               </div>
+              <Link to={{pathname: '/budget', query:{data: networkRank}}} onClick={() => this.addNetworks()}><Button id="button-id" variant="contained" color="primary">
+                Next
+              </Button></Link>
+            </div>
           )}
 }
 

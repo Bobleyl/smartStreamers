@@ -125,3 +125,43 @@
   border: 1px solid #999999; 
   padding: 5px;  
 }
+
+#tile-img {
+  width: 100%;
+}
+
+#tile-img button {
+  -webkit-tap-highlight-color: gold;
+}
+
+#button-selection {
+  width: 150px;
+  height:50px;
+  border-radius: 10px;
+  float: right;
+}
+
+#needpad {
+  padding: 20px;
+}
+
+#needpad button {
+  padding: 30px;
+  float:right;
+  color:white;
+  background-color:black;
+}
+
+.resultsPage {
+  text-align: center;
+  font-size: 40px;
+}
+
+.img-results {
+  text-align: center;
+}
+
+.img-results img {
+  width: 200px;
+  height: 200px;
+}

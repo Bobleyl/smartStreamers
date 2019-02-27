@@ -89,6 +89,7 @@ class Budget extends Component {
   		console.log("ERROR: pricing(" + price + ") WENT WRONG!!!");
   	}
   	console.log("ChosenNetworks: " + chosenNetworks);
+  	localStorage.setItem('myData', chosenNetworks);
   }
 
   render() {
@@ -98,7 +99,7 @@ class Budget extends Component {
           Budget: $   
           <input id="submissionfield" type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
-        <Link to={{pathname: '/results', query:{data: chosenNetworks}}}><input type="submit" value="Next" onClick={this.handleSubmit()}/></Link>
+        <Link to={{pathname: '/results', state:{data: chosenNetworks}}}><input type="submit" value="Next" onClick={this.handleSubmit()}/></Link>
       </form></div>
     );
   }
