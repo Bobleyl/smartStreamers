@@ -54,7 +54,7 @@ class Selection extends Component {
     }
     
    handleSubmit(networks) {
-     tag = true
+     //tag = true
       if(Array.isArray(networks) === true){
         for(var i = 0; i < networks.length; i++){
           if(networks[i] === "Netflix"){
